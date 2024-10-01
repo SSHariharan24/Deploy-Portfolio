@@ -19,3 +19,7 @@ app.use('/api', emailRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+//username:hariabi2004a
+//pwd:gT48RRwcbSYkN2uc
+//mongodb+srv://hariabi2004a:<db_password>@mern-portfolio.pwyym.mongodb.net/?retryWrites=true&w=majority&appName=mern-portfolio
