@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa';
-
+// const backend = process.env.REACT_APP_BACKEND_URL
 export const Contacts = () => {
   // State to manage form data
   const [formData, setFormData] = useState({
