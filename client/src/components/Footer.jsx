@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8">
+    <footer className="footer bg-light dark:bg-black text-light dark:text-white py-8">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="flex flex-col md:flex-row md:space-x-12 items-center mb-4">
           <div className="flex-1 mb-4 md:mb-0">
@@ -18,7 +18,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your email"
-                className="w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600 
+                className="w-full p-2 rounded-l-lg dark:bg-gray-800 bg-gray-100 border border-gray-600 
                 focus:outline-none focus:border-green-400"
               />
               <button

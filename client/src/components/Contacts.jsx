@@ -45,7 +45,7 @@ export const Contacts = () => {
   };
 
   return (
-    <div className="bg-black text-white py-20" id="Contacts">
+    <div className="contacts bg-light dark:bg-black text-light dark:text-white py-20" id="Contacts">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">Contact Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
@@ -76,7 +76,7 @@ export const Contacts = () => {
                     <input 
                       type="text" 
                       name="name"
-                      className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none
+                      className='w-full p-2 rounded dark:bg-gray-800 border bg-gray-100 border-gray-600 focus:outline-none
                       focus:border-green-400'
                       placeholder='Enter Your Name' 
                       value={formData.name} 
@@ -89,7 +89,7 @@ export const Contacts = () => {
                     <input 
                       type="email" 
                       name="email"
-                      className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none
+                      className='w-full p-2 rounded dark:bg-gray-800 border bg-gray-100 border-gray-600 focus:outline-none
                       focus:border-green-400'
                       placeholder='Enter Your Email' 
                       value={formData.email} 
@@ -101,7 +101,7 @@ export const Contacts = () => {
                     <label htmlFor="message" className='block mb-2'>Message</label>
                     <textarea 
                       name="message"
-                      className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none
+                      className='w-full p-2 rounded dark:bg-gray-800 border bg-gray-100 border-gray-600 focus:outline-none
                       focus:border-green-400'
                       rows="5"
                       placeholder='Enter Your Message' 

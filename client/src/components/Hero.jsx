@@ -2,7 +2,7 @@ import React from 'react'
 import HeroImage from '../assets/hero-images.jpg'
 export const Hero = () => {
   return (
-    <div className='bg-black text-white text-center py-16' id="Hero">
+    <div className='hero bg-light dark:bg-black text-light dark:text-white text-center py-16' id="Hero">
         <img src={HeroImage} alt="" className='mx-auto mb-8 w-48 h-48 rounded-full object-cover 
         transition-transform duration-300 hover:scale-105' />
         <h1 className='text-4xl font-bold'>
